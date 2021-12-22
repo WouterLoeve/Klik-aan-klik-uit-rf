@@ -11,5 +11,6 @@ Hackable Rf library for 'klik aan klik uit' on the raspberry pi using python
 3. Copy example.config.yaml to config.yaml and fill in the values if necessary
 
 ### Usage
-python3 main.py [state]
+```python3 main.py [state]```
+
 in which state is either 1 (on) or 0 (off).
