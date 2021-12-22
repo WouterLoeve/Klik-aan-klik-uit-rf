@@ -61,7 +61,7 @@ def transmit_code_new(code):
     GPIO.cleanup() 
 
 if __name__ == '__main__':
-    with open("config.yaml", "r") as stream:
+    with open("./config.yaml", "r") as stream:
         try:
             config = yaml.safe_load(stream)
         except yaml.YAMLError as exc:
