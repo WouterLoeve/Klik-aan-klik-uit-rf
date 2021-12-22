@@ -83,5 +83,5 @@ if __name__ == '__main__':
     # group is the group id, can have multiple devices. We don't use this.
     # unit corresponds with the seperate buttons on the remote, this can be used to add multiple receivers
     # Also note that it's possible to assign multiple unit codes to the same receiver
-    argument = "B{name:026b}{group}{state}{unit:04b}E".format(name=config.name, group=config.group, state=state, unit=config.unit)
+    argument = "B{name:026b}{group}{state}{unit:04b}E".format(name=config["name"], group=config["group"], state=state, unit=config["unit"])
     transmit_code_new(str(argument))
