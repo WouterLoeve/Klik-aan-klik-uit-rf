@@ -1,0 +1,11 @@
+# Input ID here, if you have a remote, 
+# you'll need to extract it from the signal (see https://www.instructables.com/Super-Simple-Raspberry-Pi-433MHz-Home-Automation/)
+# If you have access to an SDR, you might be interested in https://github.com/merbanan/rtl_433
+name: 12345678
+group: 1
+unit: 0
+
+# Number was increased because it may be unreliable on longer distances.
+# That depends on your attenna.
+num_attempts: 20
+transmit_pin: 18
