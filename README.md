@@ -14,3 +14,6 @@ Hackable Rf library for 'klik aan klik uit' on the raspberry pi using python
 ```python3 main.py [state]```
 
 in which state is either 1 (on) or 0 (off).
+
+## Credits
+Thanks for helping and having fun, [Patrick](https://github.com/Patrickfen)
