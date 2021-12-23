@@ -3,6 +3,8 @@
 # If you have access to an SDR, you might be interested in https://github.com/merbanan/rtl_433
 name: 12345678
 group: 1
+
+# Can also be list
 unit: 0
 
 # Number was increased because it may be unreliable on longer distances.
