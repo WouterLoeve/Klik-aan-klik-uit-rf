@@ -25,7 +25,9 @@ def create_kaku_message(name, group, state, unit):
     
     :returns: String that can be used by transmit_code_new.
     """
-    return "B{name:026b}{group}{state}{unit:04b}E".format(name, group, state, unit)
+    return "B{name:026b}{group}{state}{unit:04b}E".format(
+        name=name, group=group, state=state, unit=unit
+    )
 
 def gpio_setup():
     """
